@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "MinhaApi": {
+    "Api.Mercearia": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

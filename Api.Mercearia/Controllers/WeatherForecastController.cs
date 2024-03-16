@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace MinhaApi.Controllers
+namespace Api.Mercearia.Controllers
 {
     [ApiController]
     [Route("[controller]")]

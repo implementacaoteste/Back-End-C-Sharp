@@ -1,6 +1,6 @@
 using System;
 
-namespace MinhaApi
+namespace Api.Mercearia
 {
     public class WeatherForecast
     {

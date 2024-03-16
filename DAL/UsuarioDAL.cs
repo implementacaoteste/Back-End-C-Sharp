@@ -1,6 +1,29 @@
-﻿namespace DAL;
+﻿using System.Collections.Generic;
 using Models;
-public class Class1
-{
 
+namespace DAL
+{
+    public class UsuarioDAL
+    {
+        public void Inserir()
+        {
+
+        }
+        public List<Usuario> BuscarTodos()
+        {
+
+        }
+        public Usuario BuscarPorId(int _id)
+        {
+
+        }
+        public void Alterar(Usuario _usuario)
+        {
+
+        }
+        public void Excluir(int _id)
+        {
+
+        }
+    }
 }

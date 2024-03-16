@@ -5,7 +5,7 @@ build:
 	docker build -t $(IMAGE_NAME) .
 
 run:
-	docker run -d --name $(CONTAINER_NAME) -p 5000:5000 -v "$(PWD)/MinhaApi":/app $(IMAGE_NAME) dotnet run
+	docker run -d --name $(CONTAINER_NAME) -p 5000:5000 -v "/home/erisvaldo/git/ImplementacaoTeste/Back-End-C-Sharp/Api.Mercearia":/app $(IMAGE_NAME) dotnet run
 
 remove:
 	docker rm $(CONTAINER_NAME) --force
@@ -36,3 +36,5 @@ clean:
 
 log:
 	docker logs $(CONTAINER_NAME)
+
+reset: stop remove up #exec
